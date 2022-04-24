@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.bg-color{
+    background-color:#5B10AC;
+}
+.color{
+    color: #5B10AC;
+}
+.header-bgc{
+   background-color: #000000;
+}
+a:hover{
+    border-bottom: 1px solid #fe9900;   
+    
+}
+.top-banner{
+    background-image:url("images/top-banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.shap-banner{
+    clip-path: polygon(0 calc(0% + 0vw), 0 100%, 100% calc(100% - 7vw), 100% 0);
+}
+.btnn{
+    color: white;
+    background-color: #fe9900;
+    border-radius: 35px;
+    border-bottom: 5px solid rgb(138, 222, 248);
+    margin-bottom: 7%;
+    margin-top: 5%;
+    font-size: 25px;
+    border-top: none;
+}
+
+.btnn:hover{
+    background-color: #5B10AC;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+.shap-mission{
+    clip-path: polygon(0 calc(0% + 7vw), 0 100%, 100% calc(100% - 10vw), 100% 0);
+    background-color: #F2F2F2;
+}
+.mission-image{
+    padding: 3%;
+    margin-bottom: 6%;
+}
+.Technology {
+    background-image:url("images/technology.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tech-btt{
+    color: white;
+    background-color: #fe9900;
+    border-radius: 35px;
+    border-bottom: 5px solid rgb(138, 222, 248);
+    margin-bottom: 8%;
+    margin-top: 2%;
+    font-size: 25px;
+    border-top: none;
+}
+.tech-btt:hover{
+    background-color:darkred;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+.btn-contact{
+    background-color: #fe9900;
+    margin-top: 10px;
+    border: none;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .sm-tx-center{   
+     text-align: center;
+ }
+ .mission-flex{
+     flex-direction: column-reverse;
+ }
+
+ } 
